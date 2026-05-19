@@ -1,6 +1,6 @@
 # Biomechanics Analysis Pipeline
 
-**Applied biomechanist and performance data technologist — Python/Colab workflows for sport science, biomechanics, and performance R&D.**
+**Applied biomechanist focused on Python/Colab workflows for sport science, biomechanics, and performance R&D.**
 
 This repository contains applied biomechanics and performance data projects using Python, Google Colab, Excel, force plate data, kinematic analysis, and athlete testing workflows. The goal is to show how raw movement and performance data can be cleaned, organized, analyzed, and translated into useful insights for coaches, athletes, researchers, and R&D teams.
 
@@ -20,7 +20,7 @@ I developed a Python pipeline to analyze joint kinematics over a 3-month trainin
 **Technical Stack:**
 - Python
 - Pandas
-- Matplotlib / Seaborn
+- Matplotlib
 - CSV cleaning and longitudinal data organization
 
 **Applied Value:**  
