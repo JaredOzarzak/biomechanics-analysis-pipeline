@@ -1,14 +1,93 @@
-# CMJ Biomechanics: Longitudinal Analysis
-**Researcher:** Jared Ozarzak, M.S. Candidate (PLNU)
+# Biomechanics Analysis Pipeline
 
-## Overview
-I developed this Python pipeline to analyze joint kinematics over a 3-month training period. I specifically addressed data-cleaning challenges related to European-style CSV exports (semicolon delimiters and comma decimals) to ensure accurate longitudinal tracking.
+**Applied biomechanist and performance data technologist — Python/Colab workflows for sport science, biomechanics, and performance R&D.**
 
-## Key Results
-* **Hip Flexion Depth:** Increased flexion by 10° (from 76° to 66°), indicating improved eccentric loading.
-* **Knee Stability:** Maintained consistent mechanics (~86°) while increasing overall power.
+This repository contains applied biomechanics and performance data projects using Python, Google Colab, Excel, force plate data, kinematic analysis, and athlete testing workflows. The goal is to show how raw movement and performance data can be cleaned, organized, analyzed, and translated into useful insights for coaches, athletes, researchers, and R&D teams.
 
-## Technical Stack
-* **Language:** Python
-* **Libraries:** Pandas (Data Wrangling), Seaborn/Matplotlib (Kinematic Visualization)
-* **Application:** Longitudinal performance tracking and gait analysis.
+## Featured Projects
+
+### 1. CMJ Biomechanics: Longitudinal Analysis
+
+This project analyzes countermovement jump performance across a training period to evaluate changes in movement strategy, lower-limb mechanics, and performance output.
+
+**Overview:**  
+I developed a Python pipeline to analyze joint kinematics over a 3-month training period. The workflow also addressed data-cleaning challenges related to European-style CSV exports, including semicolon delimiters and comma decimals, to support accurate longitudinal tracking.
+
+**Key Results:**
+- Hip flexion depth increased by 10°, from 76° to 66°, suggesting improved eccentric loading.
+- Knee stability remained consistent while overall power increased.
+
+**Technical Stack:**
+- Python
+- Pandas
+- Matplotlib / Seaborn
+- CSV cleaning and longitudinal data organization
+
+**Applied Value:**  
+Demonstrates how repeated athlete testing data can be cleaned, tracked, and summarized to monitor performance changes over time.
+
+---
+
+### 2. Golf Energy Flow
+
+This project analyzes rotational sequencing and energy transfer concepts in the golf swing. The goal is to connect movement timing, force production, and swing efficiency in a way that can support performance analysis or equipment R&D.
+
+**Focus Areas:**
+- Rotational sequencing
+- Force plate interpretation
+- Motion capture concepts
+- Energy transfer through the kinetic chain
+
+**Technical Stack:**
+- Python / Colab
+- Excel
+- Force plate data concepts
+- Kinematic analysis concepts
+
+**Applied Value:**  
+Shows how technical golf movement data can be organized and translated into practical insights for coaching, fitting, and product-performance discussions.
+
+---
+
+### 3. Baseball vs. Softball Swing Comparison
+
+This project compares swing mechanics between baseball and softball athletes with a focus on kinematic sequencing and movement pattern differences.
+
+**Focus Areas:**
+- Swing kinematics
+- Segment sequencing
+- Sport-specific movement comparison
+- Performance interpretation
+
+**Technical Stack:**
+- Python / Colab
+- Excel
+- Kinematic comparison
+- Data visualization
+
+**Applied Value:**  
+Demonstrates the ability to compare movement patterns across sports and communicate key differences in a clear, performance-focused way.
+
+---
+
+## Technical Skills Demonstrated
+
+- Python data cleaning and analysis
+- Google Colab workflow development
+- Excel-based data organization
+- Force plate and performance testing interpretation
+- Kinematic and biomechanical analysis
+- Movement data visualization
+- Athlete monitoring and longitudinal tracking
+- Translating technical outputs into practical performance summaries
+
+## Repository Goal
+
+This repository is designed to show my ability to connect biomechanics, sport science, and data analysis. My focus is not only collecting movement data, but building organized workflows that make the data easier to understand, repeat, and apply in real performance or R&D settings.
+
+## Contact
+
+**Jared Ozarzak**  
+San Diego, CA  
+JaredOzarzak22@gmail.com  
+LinkedIn: linkedin.com/in/jared-ozarzak
