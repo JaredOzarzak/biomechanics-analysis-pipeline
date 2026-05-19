@@ -2,42 +2,56 @@
 
 ## Overview
 
-This project analyzes simulated golf swing performance data to demonstrate how Python can be used to organize, normalize, visualize, and interpret sport-specific biomechanics variables. The goal is to show how rotational sequencing and energy-transfer concepts can be translated into a clean performance workflow for golf R&D, coaching, or fitting discussions.
+This project analyzes biomechanical predictors of golf driving performance using 3D motion capture, force plates, surface EMG, and regression analysis. The goal was to evaluate how ground reaction forces, X-Factor, joint loading, and muscle activation relate to maximum clubhead speed during the golf drive.
 
-## Dataset
+## Data Collection
 
-This workflow uses a simulated dataset of 300 total swings from 30 golfers, with 10 swings per golfer. Players are separated into professional and amateur groups to compare differences in peak segment velocities, clubhead speed, timing, and consistency.
+One female subject completed ten full driver swings into a net. Reflective markers were placed on the golf club to track club motion, while force plates measured lead and back foot ground reaction forces separately. Surface EMG sensors were placed on the back leg gastrocnemius and erector spinae muscles, with MVC testing used to normalize muscle activity.
+
+Motion data were captured using the lab’s camera system and processed through QTM and Visual3D. Trials were trimmed to isolate the golf swing and export relevant kinematic, kinetic, and neuromuscular variables for analysis.
+
+## Variables Analyzed
+
+- Maximum clubhead speed
+- Lead vertical ground reaction force
+- Back vertical ground reaction force
+- X-Factor
+- L5/S1 joint moment
+- Erector spinae activation (%MVC)
+- Back leg gastrocnemius activation (%MVC)
 
 ## Methods
 
-I built a Python workflow that creates and analyzes golf performance data using player-level baselines and swing-to-swing variability. The pipeline calculates peak pelvis, torso, and lead-arm velocities, estimates clubhead speed, normalizes each player’s speed using Z-scores, and flags outlier swings based on individual consistency.
+A multiple stepwise linear regression was used to determine which biomechanical variables best predicted maximum clubhead speed. The analysis examined kinetic, kinematic, and EMG variables to identify which factors were most strongly associated with driving performance.
 
-The workflow also visualizes group-level clubhead speed distributions and evaluates the relationship between pelvis peak velocity and clubhead speed to demonstrate an energy-flow style analysis.
+## Key Results
 
-## Key Outputs
+- The regression model was statistically significant.
+- The model explained approximately 65.3% of the variance in maximum clubhead speed.
+- Lead vertical ground reaction force was the only individual predictor that reached statistical significance.
+- The findings suggest that lead leg force production and braking mechanics may play an important role in transferring energy through the kinetic chain during the downswing.
 
-- Created a 300-swing golf performance dataset using professional and amateur player groups.
-- Calculated player-specific Z-scores to compare swing consistency relative to each athlete’s own baseline.
-- Flagged stable and outlier swings using a Z-score threshold.
-- Visualized clubhead speed distributions across groups.
-- Compared pelvis peak velocity against clubhead speed to examine energy-transfer trends.
-- Ranked players by an efficiency metric based on clubhead speed relative to pelvis peak velocity.
+## Applied Interpretation
+
+The lead vertical ground reaction force acts as a braking mechanism during the downswing. By pushing into the ground with the lead leg, the golfer creates a stable block that helps transfer momentum from the lower body into the pelvis, torso, arms, and club.
+
+The X-Factor reflects the rotational separation between the hips and shoulders. This separation helps create a stretch-shortening effect through the trunk, supporting rotational speed and clubhead acceleration. EMG activity from the gastrocnemius and erector spinae helps explain how lower-body drive and trunk stability support the swing.
 
 ## Technical Stack
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
-- Data visualization
-- Simulated biomechanics dataset generation
+- 3D motion capture
+- Force plates
+- Surface EMG
+- QTM
+- Visual3D
+- Excel / statistical analysis
+- Regression modeling
+- Biomechanics reporting
 
 ## Applied Value
 
-This project demonstrates how biomechanics and performance data can be structured into an organized analysis pipeline. Even with simulated data, the workflow shows how golf swing variables can be cleaned, normalized, visualized, and summarized in a way that supports coaching, fitting, and R&D-style decision-making.
+This project demonstrates how biomechanics data can be used to connect lab-based measurement with sport performance outcomes. The analysis translates kinetic, kinematic, and neuromuscular data into practical insight for golf performance, coaching, fitting, and R&D-style decision-making.
 
 ## Portfolio Relevance
 
-This project highlights my ability to connect sport biomechanics concepts with practical Python-based data workflows. The focus is not only on producing charts, but on creating a repeatable structure for analyzing athlete performance data and communicating the results clearly.
+This project shows my ability to collect, process, analyze, and communicate sport biomechanics data. It connects technical lab tools with performance questions, specifically how ground reaction forces and rotational mechanics influence clubhead speed.
