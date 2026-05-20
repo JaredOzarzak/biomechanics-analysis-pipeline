@@ -68,7 +68,27 @@ This project compares swing mechanics between baseball and softball athletes wit
 **Applied Value:**  
 Demonstrates the ability to compare movement patterns across sports and communicate key differences in a clear, performance-focused way.
 
----
+### 4. Equipment Recommendation Prototype
+
+This project demonstrates a basic machine learning workflow for golf equipment R&D. The notebook uses launch monitor-style and biomechanics-style variables to predict clubhead speed and generate a simple equipment recommendation.
+
+**Focus Areas:**
+- Machine learning workflow
+- Golf equipment recommendation
+- Launch monitor-style variables
+- Feature engineering
+- Model evaluation
+
+**Technical Stack:**
+- Python / Colab
+- Pandas
+- NumPy
+- Scikit-learn
+- Random Forest regression
+- Matplotlib / Seaborn
+
+**Applied Value:**  
+Shows how golf testing data can be turned into a repeatable machine learning pipeline for prototype evaluation, fitting logic, and product-performance decision-making.
 
 ## Technical Skills Demonstrated
 
