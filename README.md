@@ -90,6 +90,27 @@ This project demonstrates a basic machine learning workflow for golf equipment R
 **Applied Value:**  
 Shows how golf testing data can be turned into a repeatable machine learning pipeline for prototype evaluation, fitting logic, and product-performance decision-making.
 
+### 5. Force Plate Signal Processing Test
+
+This project demonstrates a test-engineering workflow for force plate data. It compares a noisy raw sensor signal against a filtered analysis signal, then extracts key metrics from the cleaned data.
+
+**Focus Areas:**
+- Signal processing
+- Force plate data
+- Raw vs. filtered signal comparison
+- Test data quality
+- KPI extraction
+
+**Technical Stack:**
+- Python / Colab
+- NumPy
+- Pandas
+- SciPy
+- Matplotlib
+- Zero-phase Butterworth filtering
+
+**Applied Value:**  
+Shows how raw sensor data can be checked, cleaned, and converted into usable outputs for testing, troubleshooting, and performance analysis.
 ## Technical Skills Demonstrated
 
 - Python data cleaning and analysis
