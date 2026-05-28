@@ -139,6 +139,10 @@ This project demonstrates a test-engineering workflow for force plate data. It c
 - SciPy
 - Matplotlib
 - Zero-phase Butterworth filtering
+- Markerless kinematic analysis
+- Ground reaction force and EMG interpretation
+- Time-series statistical analysis using SPM1D
+- Athlete adaptation and asymmetry analysis
 
 **Applied Value:**  
 Shows how raw sensor data can be checked, cleaned, and converted into usable outputs for testing, troubleshooting, and performance analysis.
