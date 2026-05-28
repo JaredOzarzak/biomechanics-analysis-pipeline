@@ -28,7 +28,38 @@ Demonstrates how repeated athlete testing data can be cleaned, tracked, and summ
 
 ---
 
-### 2. Golf Energy Flow
+## 2. Sprint Prosthesis Biomechanics Pilot Study
+
+This project analyzes sprint acceleration biomechanics in a unilateral transtibial amputee using a running-specific prosthesis compared with an able-bodied control. The workflow processes markerless kinematics, ground reaction force, and EMG data to evaluate loading asymmetries, neuromuscular compensation, and athlete adaptation during stance.
+
+### Focus Areas
+
+- Running-specific prosthesis biomechanics
+- Markerless kinematic analysis
+- Ground reaction force analysis
+- EMG activation patterns
+- Limb asymmetry and athlete adaptation
+- Time-series statistical analysis using SPM1D
+
+### Technical Stack
+
+- Python / Google Colab
+- pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Seaborn
+- SPM1D
+- Theia3D markerless kinematics
+- AMTI force plates
+- Delsys EMG
+- Visual3D exports
+
+### Applied Value
+
+Demonstrates how synchronized movement, force, and EMG data can be processed and interpreted to evaluate loading strategies, athlete adaptation, and product-performance questions during sprint acceleration.
+
+### 3. Golf Energy Flow
 
 This project analyzes rotational sequencing and energy transfer concepts in the golf swing. The goal is to connect movement timing, force production, and swing efficiency in a way that can support performance analysis or equipment R&D.
 
@@ -49,7 +80,7 @@ Shows how technical golf movement data can be organized and translated into prac
 
 ---
 
-### 3. Baseball vs. Softball Swing Comparison
+### 4. Baseball vs. Softball Swing Comparison
 
 This project compares swing mechanics between baseball and softball athletes with a focus on kinematic sequencing and movement pattern differences.
 
@@ -68,7 +99,7 @@ This project compares swing mechanics between baseball and softball athletes wit
 **Applied Value:**  
 Demonstrates the ability to compare movement patterns across sports and communicate key differences in a clear, performance-focused way.
 
-### 4. Equipment Recommendation Prototype
+### 5. Equipment Recommendation Prototype
 
 This project demonstrates a basic machine learning workflow for golf equipment R&D. The notebook uses launch monitor-style and biomechanics-style variables to predict clubhead speed and generate a simple equipment recommendation.
 
@@ -90,7 +121,7 @@ This project demonstrates a basic machine learning workflow for golf equipment R
 **Applied Value:**  
 Shows how golf testing data can be turned into a repeatable machine learning pipeline for prototype evaluation, fitting logic, and product-performance decision-making.
 
-### 5. Force Plate Signal Processing Test
+### 6. Force Plate Signal Processing Test
 
 This project demonstrates a test-engineering workflow for force plate data. It compares a noisy raw sensor signal against a filtered analysis signal, then extracts key metrics from the cleaned data.
 
