@@ -59,7 +59,32 @@ This project analyzes sprint acceleration biomechanics in a unilateral transtibi
 
 Demonstrates how synchronized movement, force, and EMG data can be processed and interpreted to evaluate loading strategies, athlete adaptation, and product-performance questions during sprint acceleration.
 
-### 3. Golf Energy Flow
+### 3. Carbon-Plated vs. Training Footwear Running Analysis
+
+This project compares running biomechanics between carbon-plated footwear and traditional training footwear. The workflow parses time-series gait data, organizes discrete running metrics, and evaluates differences in stride length, stride width, vertical GRF, knee flexion at foot contact, and peak plantarflexion.
+
+**Focus Areas:**
+- Carbon-plated footwear biomechanics
+- Running gait analysis
+- Lower-limb kinematics
+- Ground reaction force interpretation
+- Discrete and time-series comparison
+- SPM1D and paired t-test analysis
+
+**Technical Stack:**
+- Python / Google Colab
+- pandas
+- NumPy
+- SciPy
+- Matplotlib
+- SPM1D
+- Time-series data wrangling
+- CSV export and reporting
+
+**Applied Value:**  
+Demonstrates how footwear testing data can be cleaned, analyzed, and interpreted to evaluate how carbon-plated shoes influence running mechanics, loading patterns, and athlete-specific movement responses.
+
+### 4. Golf Energy Flow
 
 This project analyzes rotational sequencing and energy transfer concepts in the golf swing. The goal is to connect movement timing, force production, and swing efficiency in a way that can support performance analysis or equipment R&D.
 
@@ -80,7 +105,7 @@ Shows how technical golf movement data can be organized and translated into prac
 
 ---
 
-### 4. Baseball vs. Softball Swing Comparison
+### 5. Baseball vs. Softball Swing Comparison
 
 This project compares swing mechanics between baseball and softball athletes with a focus on kinematic sequencing and movement pattern differences.
 
@@ -99,7 +124,7 @@ This project compares swing mechanics between baseball and softball athletes wit
 **Applied Value:**  
 Demonstrates the ability to compare movement patterns across sports and communicate key differences in a clear, performance-focused way.
 
-### 5. Equipment Recommendation Prototype
+### 6. Equipment Recommendation Prototype
 
 This project demonstrates a basic machine learning workflow for golf equipment R&D. The notebook uses launch monitor-style and biomechanics-style variables to predict clubhead speed and generate a simple equipment recommendation.
 
@@ -121,7 +146,7 @@ This project demonstrates a basic machine learning workflow for golf equipment R
 **Applied Value:**  
 Shows how golf testing data can be turned into a repeatable machine learning pipeline for prototype evaluation, fitting logic, and product-performance decision-making.
 
-### 6. Force Plate Signal Processing Test
+### 7. Force Plate Signal Processing Test
 
 This project demonstrates a test-engineering workflow for force plate data. It compares a noisy raw sensor signal against a filtered analysis signal, then extracts key metrics from the cleaned data.
 
@@ -156,6 +181,10 @@ Shows how raw sensor data can be checked, cleaned, and converted into usable out
 - Movement data visualization
 - Athlete monitoring and longitudinal tracking
 - Translating technical outputs into practical performance summaries
+- Footwear biomechanics analysis
+- Carbon-plated footwear testing
+- Running gait time-series analysis
+- Paired t-test comparison
 
 ## Repository Goal
 
