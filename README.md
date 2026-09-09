@@ -1,197 +1,287 @@
-# Biomechanics Analysis Pipeline
+# Biomechanics & Research Data Analysis Pipeline
 
-**Applied biomechanist focused on Python/Colab workflows for sport science, biomechanics, and performance R&D.**
+**Research-focused data analysis workflows spanning human-subject research, biomechanics, physiological testing, and structured research data.**
 
-This repository contains applied biomechanics and performance data projects using Python, Google Colab, Excel, force plate data, kinematic analysis, and athlete testing workflows. The goal is to show how raw movement and performance data can be cleaned, organized, analyzed, and translated into useful insights for coaches, athletes, researchers, and R&D teams.
+This repository demonstrates my experience using **Python, Google Colab, Excel, and quantitative analysis workflows** to organize, clean, analyze, and interpret research and human-performance data.
 
-## Featured Projects
+Projects include human-subject biomechanics research, physiological testing, longitudinal data analysis, signal processing, and structured data-quality workflows. The emphasis is on **accurate data organization, reproducible analysis, documentation, and translating quantitative findings into clear conclusions**.
 
-## 1. Sprint Prosthesis Biomechanics Pilot Study
+These skills are directly transferable to research environments involving participant data collection, study documentation, data quality, data management, and research-team collaboration.
 
-This project analyzes sprint acceleration biomechanics in a unilateral transtibial amputee using a running-specific prosthesis compared with an able-bodied control. The workflow processes markerless kinematics, ground reaction force, and EMG data to evaluate loading asymmetries, neuromuscular compensation, and athlete adaptation during stance.
+---
 
-### Focus Areas
+## Featured Research & Data Projects
 
-- Running-specific prosthesis biomechanics
-- Markerless kinematic analysis
-- Ground reaction force analysis
-- EMG activation patterns
-- Limb asymmetry and athlete adaptation
-- Time-series statistical analysis using SPM1D
+### 1. Sprint Prosthesis Biomechanics Pilot Study
 
-### Technical Stack
+A human-subject biomechanics research project analyzing sprint acceleration in a unilateral transtibial amputee using a running-specific prosthesis compared with an able-bodied control.
 
-- Python / Google Colab
-- pandas
-- NumPy
-- SciPy
-- Matplotlib
-- Seaborn
-- SPM1D
-- Theia3D markerless kinematics
-- AMTI force plates
-- Delsys EMG
-- Visual3D exports
+The workflow integrates **markerless kinematics, ground reaction force, and EMG data** to evaluate loading asymmetries, neuromuscular compensation, and movement adaptation during sprint acceleration.
 
-### Applied Value
+**Research Focus**
 
-Demonstrates how synchronized movement, force, and EMG data can be processed and interpreted to evaluate loading strategies, athlete adaptation, and product-performance questions during sprint acceleration.
+* Human-subject biomechanics
+* Participant movement analysis
+* Markerless kinematics
+* Ground reaction force analysis
+* EMG data interpretation
+* Limb asymmetry and adaptation
+* Time-series statistical analysis
 
-### 2. Carbon-Plated vs. Training Footwear Running Analysis
+**Technical Methods**
 
-This project compares running biomechanics between carbon-plated footwear and traditional training footwear. The workflow parses time-series gait data, organizes discrete running metrics, and evaluates differences in stride length, stride width, vertical GRF, knee flexion at foot contact, and peak plantarflexion.
+* Python / Google Colab
+* pandas
+* NumPy
+* SciPy
+* Matplotlib
+* Seaborn
+* SPM1D
+* Theia3D markerless kinematics
+* AMTI force plates
+* Delsys EMG
+* Visual3D exports
 
-**Focus Areas:**
-- Carbon-plated footwear biomechanics
-- Running gait analysis
-- Lower-limb kinematics
-- Ground reaction force interpretation
-- Discrete and time-series comparison
-- SPM1D and paired t-test analysis
+**Research Value**
 
-**Technical Stack:**
-- Python / Google Colab
-- pandas
-- NumPy
-- SciPy
-- Matplotlib
-- SPM1D
-- Time-series data wrangling
-- CSV export and reporting
+Demonstrates the ability to work with complex, synchronized research datasets and convert raw movement, force, and EMG measurements into structured analyses and interpretable findings.
 
-**Applied Value:**  
-Demonstrates how footwear testing data can be cleaned, analyzed, and interpreted to evaluate how carbon-plated shoes influence running mechanics, loading patterns, and athlete-specific movement responses.
+---
 
-### 3. Force Plate Signal Processing Test
+### 2. CMJ Biomechanics: Longitudinal Analysis
 
-This project demonstrates a test-engineering workflow for force plate data. It compares a noisy raw sensor signal against a filtered analysis signal, then extracts key metrics from the cleaned data.
+A longitudinal analysis of countermovement jump testing data collected across a three-month training period.
 
-**Focus Areas:**
-- Signal processing
-- Force plate data
-- Raw vs. filtered signal comparison
-- Test data quality
-- KPI extraction
+I developed a Python workflow to organize and analyze repeated measurements while addressing data-cleaning challenges associated with European-style CSV exports, including semicolon delimiters and comma-based decimal formatting.
 
-**Technical Stack:**
-- Python / Colab
-- NumPy
-- Pandas
-- SciPy
-- Matplotlib
-- Zero-phase Butterworth filtering
-- Markerless kinematic analysis
-- Ground reaction force and EMG interpretation
-- Time-series statistical analysis using SPM1D
-- Athlete adaptation and asymmetry analysis
+**Research & Data Focus**
 
-**Applied Value:**  
-Shows how raw sensor data can be checked, cleaned, and converted into usable outputs for testing, troubleshooting, and performance analysis.
+* Longitudinal data organization
+* Repeated-measures analysis
+* Data cleaning
+* Kinematic analysis
+* Performance tracking
+* Structured data management
 
-### 4. Golf Energy Flow
+**Key Findings**
 
-This project analyzes rotational sequencing and energy transfer concepts in the golf swing. The goal is to connect movement timing, force production, and swing efficiency in a way that can support performance analysis or equipment R&D.
+* Hip flexion angle changed by 10° across the observation period.
+* Knee movement remained relatively stable while overall power increased.
 
-**Focus Areas:**
-- Rotational sequencing
-- Force plate interpretation
-- Motion capture concepts
-- Energy transfer through the kinetic chain
+**Technical Methods**
 
-**Technical Stack:**
-- Python / Colab
-- Excel
-- Force plate data concepts
-- Kinematic analysis concepts
+* Python
+* pandas
+* Matplotlib
+* CSV data cleaning
+* Longitudinal data organization
 
-**Applied Value:**  
-Shows how technical golf movement data can be organized and translated into practical insights for coaching, fitting, and product-performance discussions.
+**Research Value**
 
-### 5. CMJ Biomechanics: Longitudinal Analysis
+Demonstrates the ability to maintain consistency across repeated measurements, identify data-format issues, clean datasets, and track changes over time.
 
-This project analyzes countermovement jump performance across a training period to evaluate changes in movement strategy, lower-limb mechanics, and performance output.
+---
 
-**Overview:**  
-I developed a Python pipeline to analyze joint kinematics over a 3-month training period. The workflow also addressed data-cleaning challenges related to European-style CSV exports, including semicolon delimiters and comma decimals, to support accurate longitudinal tracking.
+### 3. Force Plate Signal Processing & Data Quality Test
 
-**Key Results:**
-- Hip flexion depth increased by 10°, from 76° to 66°, suggesting improved eccentric loading.
-- Knee stability remained consistent while overall power increased.
+A quantitative data-processing project focused on evaluating raw force-plate sensor data and producing a cleaner signal for analysis.
 
-**Technical Stack:**
-- Python
-- Pandas
-- Matplotlib
-- CSV cleaning and longitudinal data organization
+The workflow compares noisy raw measurements with filtered data and extracts relevant metrics from the processed signal.
 
-**Applied Value:**  
-Demonstrates how repeated athlete testing data can be cleaned, tracked, and summarized to monitor performance changes over time.
+**Focus Areas**
+
+* Data quality assessment
+* Signal processing
+* Raw vs. processed data comparison
+* Quantitative metric extraction
+* Testing and troubleshooting
+
+**Technical Methods**
+
+* Python / Google Colab
+* NumPy
+* pandas
+* SciPy
+* Matplotlib
+* Zero-phase Butterworth filtering
+
+**Research Value**
+
+Demonstrates a structured approach to identifying data-quality issues, processing raw measurements, and producing reliable analytical outputs.
+
+---
+
+### 4. Carbon-Plated vs. Training Footwear Running Analysis
+
+A comparative biomechanics analysis examining differences between carbon-plated footwear and traditional training footwear.
+
+The workflow organizes running gait data and evaluates differences in stride characteristics, ground reaction forces, lower-limb kinematics, and other discrete and time-series measures.
+
+**Focus Areas**
+
+* Comparative research analysis
+* Running gait
+* Lower-limb kinematics
+* Ground reaction force
+* Time-series data
+* Statistical comparison
+
+**Technical Methods**
+
+* Python / Google Colab
+* pandas
+* NumPy
+* SciPy
+* Matplotlib
+* SPM1D
+* Paired t-tests
+* CSV data processing
+
+**Research Value**
+
+Demonstrates the ability to organize comparative datasets, apply statistical methods, evaluate quantitative differences, and communicate analytical findings.
+
+---
+
+### 5. Golf Energy Flow Analysis
+
+An applied biomechanics project examining rotational sequencing and energy transfer during the golf swing.
+
+The project organizes movement and force-related concepts to evaluate relationships between timing, force production, and movement efficiency.
+
+**Focus Areas**
+
+* Kinematic analysis
+* Movement sequencing
+* Force interpretation
+* Quantitative performance analysis
+* Technical communication
+
+**Technical Methods**
+
+* Python / Google Colab
+* Excel
+* Kinematic analysis
+* Force-plate concepts
 
 ---
 
 ### 6. Baseball vs. Softball Swing Comparison
 
-This project compares swing mechanics between baseball and softball athletes with a focus on kinematic sequencing and movement pattern differences.
+A comparative movement-analysis project examining differences in swing mechanics between baseball and softball athletes.
 
-**Focus Areas:**
-- Swing kinematics
-- Segment sequencing
-- Sport-specific movement comparison
-- Performance interpretation
+**Focus Areas**
 
-**Technical Stack:**
-- Python / Colab
-- Excel
-- Kinematic comparison
-- Data visualization
+* Human movement analysis
+* Kinematic comparison
+* Segment sequencing
+* Data visualization
+* Quantitative interpretation
 
-**Applied Value:**  
-Demonstrates the ability to compare movement patterns across sports and communicate key differences in a clear, performance-focused way.
+**Technical Methods**
+
+* Python / Google Colab
+* Excel
+* Kinematic comparison
+* Data visualization
+
+---
 
 ### 7. Equipment Recommendation Prototype
 
-This project demonstrates a basic machine learning workflow for golf equipment R&D. The notebook uses launch monitor-style and biomechanics-style variables to predict clubhead speed and generate a simple equipment recommendation.
+A machine-learning prototype demonstrating how structured testing variables can be used to develop a repeatable analytical workflow.
 
-**Focus Areas:**
-- Machine learning workflow
-- Golf equipment recommendation
-- Launch monitor-style variables
-- Feature engineering
-- Model evaluation
+The project uses launch-monitor-style and biomechanics-related variables to predict clubhead speed and generate a basic equipment recommendation.
 
-**Technical Stack:**
-- Python / Colab
-- Pandas
-- NumPy
-- Scikit-learn
-- Random Forest regression
-- Matplotlib / Seaborn
+**Focus Areas**
 
-**Applied Value:**  
-Shows how golf testing data can be turned into a repeatable machine learning pipeline for prototype evaluation, fitting logic, and product-performance decision-making.
+* Data preparation
+* Feature engineering
+* Machine learning
+* Model evaluation
+* Structured decision-making
 
-## Technical Skills Demonstrated
+**Technical Methods**
 
-- Python data cleaning and analysis
-- Google Colab workflow development
-- Excel-based data organization
-- Force plate and performance testing interpretation
-- Kinematic and biomechanical analysis
-- Movement data visualization
-- Athlete monitoring and longitudinal tracking
-- Translating technical outputs into practical performance summaries
-- Footwear biomechanics analysis
-- Carbon-plated footwear testing
-- Running gait time-series analysis
-- Paired t-test comparison
+* Python / Google Colab
+* pandas
+* NumPy
+* scikit-learn
+* Random Forest regression
+* Matplotlib
+* Seaborn
+
+---
+
+## Research & Technical Skills
+
+### Research & Data
+
+* Human-subject research data analysis
+* Participant testing data organization
+* Longitudinal data management
+* Data cleaning and quality assessment
+* Quantitative research analysis
+* Statistical comparison
+* Structured research workflows
+* Research documentation and reproducibility
+
+### Technical
+
+* Python
+* Google Colab
+* pandas
+* NumPy
+* SciPy
+* Matplotlib
+* Seaborn
+* scikit-learn
+* SPM1D
+* Excel
+* CSV data processing
+
+### Biomechanics & Laboratory Data
+
+* Kinematic analysis
+* Markerless motion capture
+* Force-plate data
+* Ground reaction force analysis
+* EMG data interpretation
+* Physiological testing data
+* Time-series analysis
+* Longitudinal performance data
+
+---
+
+## Approach to Research Data
+
+My approach to quantitative research emphasizes **accuracy, organization, reproducibility, and clear documentation**.
+
+I focus on building workflows that:
+
+1. Organize raw research data into structured datasets
+2. Identify and resolve data-quality or formatting issues
+3. Apply appropriate quantitative and statistical methods
+4. Maintain consistency across repeated measurements
+5. Document analytical procedures and findings
+6. Translate technical results into clear, interpretable conclusions
+
+This approach reflects the same core principles required when working with participant data and research datasets: **data integrity, careful documentation, protocol-driven workflows, and clear communication with research teams.**
+
+---
 
 ## Repository Goal
 
-This repository is designed to show my ability to connect biomechanics, sport science, and data analysis. My focus is not only collecting movement data, but building organized workflows that make the data easier to understand, repeat, and apply in real performance or R&D settings.
+This repository provides examples of my ability to combine **human-subject research, quantitative analysis, data management, and technical problem-solving**.
+
+My background in biomechanics has given me experience working with structured research protocols, participant testing, physiological and movement data, and multidisciplinary research teams. I use computational tools to make research data more organized, reproducible, and useful for decision-making.
+
+---
 
 ## Contact
 
-**Jared Ozarzak**  
-San Diego, CA  
-JaredOzarzak22@gmail.com  
+**Jared Ozarzak**
+
+Columbus, OH
+
 LinkedIn: linkedin.com/in/jared-ozarzak
