@@ -23,22 +23,17 @@ A longitudinal analysis of countermovement jump data across a three-month traini
 
 **Tools:** Python, pandas, Matplotlib
 
-## 4. Force Plate Signal Processing & Data Quality Test
-An evaluation of raw force plate data and how filtering changes it. I compared the raw signal against a zero-phase Butterworth filtered version, then extracted metrics from the cleaned data.
-
-**Tools:** Python, NumPy, SciPy, pandas, Matplotlib
-
-## 5. Sprint Prosthesis Biomechanics Pilot
+## 4. Sprint Prosthesis Biomechanics Pilot
 A pilot study comparing sprint acceleration in a unilateral transtibial amputee wearing a running-specific prosthesis against an able-bodied control. I synchronized markerless kinematics, ground reaction force, and EMG to examine loading asymmetries and compensation patterns.
 
 **Tools:** Python, SPM1D, Theia3D, AMTI force plates, Delsys EMG, Visual3D exports
 
-## 6. Carbon-Plated vs. Training Footwear
+## 5. Carbon-Plated vs. Training Footwear
 A comparison of running gait in carbon-plated and traditional training footwear, covering stride characteristics, ground reaction forces, and lower-limb kinematics using both discrete and time-series measures.
 
 **Tools:** Python, SPM1D, paired t-tests, pandas, NumPy, SciPy, Matplotlib
 
-## 7. Pitcher Velocity Identification
+## 6. Pitcher Velocity Identification
 A machine learning model that identifies pitchers likely to throw at high velocity, built for a technical assessment. I validated it with grouped cross-validation on 200+ subjects so no athlete appeared in both the training and test sets.
 
 **Tools:** Python, scikit-learn, XGBoost
