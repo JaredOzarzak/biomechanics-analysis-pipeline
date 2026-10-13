@@ -34,9 +34,9 @@ A comparison of running gait in carbon-plated and traditional training footwear,
 **Tools:** Python, SPM1D, paired t-tests, pandas, NumPy, SciPy, Matplotlib
 
 ## 6. Five-Year Velocity Projection: 2025 FCL Pitchers
-A projection of five-year fastball velocity for 2025 FCL pitchers using biomechanical data. I trained machine learning models on a training set of about 9,000 rows, applied them to the 2025 FCL pitchers, and looked at which biomechanical traits were most connected to fastball velocity.
+A technical assessment projecting which 2025 FCL pitcher is most likely to throw the hardest fastball in five years. I trained a random forest on 8,981 pitches from 203 pitchers, validated it with pitcher-grouped cross-validation so no pitcher appeared in both training and testing, and checked how stable the rankings were with a bootstrap. The model's R² was low (0.07), so I presented the results as tiers rather than exact predictions.
 
-**Tools:** Python, pandas, NumPy, scikit-learn, XGBoost
+**Tools:** Python, pandas, NumPy, scikit-learn, Matplotlib
 
 ---
 
