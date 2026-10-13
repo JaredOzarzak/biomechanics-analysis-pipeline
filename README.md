@@ -7,9 +7,9 @@ Each project started with a question I ran into while working with athletes or i
 ---
 
 ## 1. Baseball vs. Softball Swing
-A comparison of swing mechanics between baseball and softball hitters. I looked at how the body segments fire in sequence and where the movement patterns differ, and built visualizations to show the differences.
+A comparison of baseball and softball swing mechanics, completed as part of graduate biomechanics coursework. Using Visual3D exports, I compared pelvis and thorax angular velocity and joint transfer power at the back hip, lead hip, and L5S1 across five swings per sport, with SPM t-tests to show where the curves differ. Baseball swings averaged a bat speed of 32.6 m/s versus 24.3 m/s for softball, with higher peak back leg force (757 N vs. 625 N).
 
-**Tools:** Python, Google Colab, Excel
+**Tools:** Python, Google Colab, SPM1D, Matplotlib, Visual3D exports
 
 ## 2. Golf Energy Flow
 An analysis of how power moves from the ground up through the body during a golf swing. I looked at rotational timing and how force and movement relate to swing efficiency.
