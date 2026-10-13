@@ -24,7 +24,7 @@ A longitudinal analysis of countermovement jump data across a three-month traini
 **Tools:** Python, pandas, Matplotlib
 
 ## 4. Sprint Prosthesis Biomechanics Pilot
-A pilot study comparing sprint acceleration in a unilateral transtibial amputee wearing a running-specific prosthesis against an able-bodied control. I synchronized markerless kinematics, ground reaction force, and EMG to examine loading asymmetries and compensation patterns.
+A pilot study from graduate coursework comparing sprint acceleration in a unilateral transtibial amputee wearing a running-specific prosthesis against an able-bodied control (five trials each, collected by my lab group). I used SPM t-tests on ground reaction force and EMG across the stance phase, plus t-tests on peak joint angles. The intact limb showed higher mid-stance force, more muscle activation, and reduced hip and knee flexion, while the prosthetic limb showed delayed force production in late stance.
 
 **Tools:** Python, SPM1D, Theia3D, AMTI force plates, Delsys EMG, Visual3D exports
 
@@ -33,10 +33,10 @@ A comparison of running gait in carbon-plated and traditional training footwear,
 
 **Tools:** Python, SPM1D, paired t-tests, pandas, NumPy, SciPy, Matplotlib
 
-## 6. Pitcher Velocity Identification
-A machine learning model that identifies pitchers likely to throw at high velocity, built for a technical assessment. I validated it with grouped cross-validation on 200+ subjects so no athlete appeared in both the training and test sets.
+## 6. Five-Year Velocity Projection: 2025 FCL Pitchers
+A projection of five-year fastball velocity for 2025 FCL pitchers using biomechanical data. I trained machine learning models on a training set of about 9,000 rows, applied them to the 2025 FCL pitchers, and looked at which biomechanical traits were most connected to fastball velocity.
 
-**Tools:** Python, scikit-learn, XGBoost
+**Tools:** Python, pandas, NumPy, scikit-learn, XGBoost
 
 ---
 
